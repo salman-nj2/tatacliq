@@ -207,6 +207,7 @@ header {
   background-repeat: no-repeat;
   background-image: url(https://www.tatacliq.com/src/search/components/img/searchwhite.215aca136e6a.svg);
   background-size: contain;
+  z-index: 0;
 }
 .search-tab-logo {
   right: 0px;

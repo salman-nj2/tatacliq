@@ -4,12 +4,19 @@
 function searchbar(){
     var inpField = document.querySelector('.search-tab-container')
     var inp = document.getElementById('search-field')
-
+    var search = document.querySelector('.search-tab-logo')
     inpField.style.backgroundColor = 'white'
     inpField.style.width = '500px'
     inp.style.color = 'black'
     inp.style.border = 'none'
-   
+    search.style.opacity = '0'
+    var img = document.createElement('img')
+    img.src = 'https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png'
+    inpField.append(img)
+    img.style.float = 'right'
+   img.style.width = '5.5%'
+   img.style.marginTop = '-25px'
+   img.style.zIndex = '10'
 
 }
 
@@ -22,6 +29,7 @@ function closesearch(){
 
     inpField.style.backgroundColor = 'black'
     inpField.style.width = '245px'
+    
 }
 
 //hover div over category
