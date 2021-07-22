@@ -1,6 +1,6 @@
 // search field effect
 
-
+id = 0
 function searchbar(){
     var inpField = document.querySelector('.search-tab-container')
     var inp = document.getElementById('search-field')
@@ -10,6 +10,7 @@ function searchbar(){
     inp.style.color = 'black'
     inp.style.border = 'none'
     search.style.opacity = '0'
+    if(id == 0){
     var img = document.createElement('img')
     img.src = 'https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png'
     inpField.append(img)
@@ -17,6 +18,8 @@ function searchbar(){
    img.style.width = '5.5%'
    img.style.marginTop = '-25px'
    img.style.zIndex = '10'
+    }
+    id++
 
 }
 
