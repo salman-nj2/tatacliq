@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tatacliq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="whole-page">
+      <header>
+        <div class="nav-bar">
+          <div class="nav-bar-logo"></div>
+          <div class="nav-bar-content">
+            <div class="nav-bar-upper-header">
+              <a href="#">
+                <div class="luxury-tab">Tata CLiQ Luxury</div>
+              </a>
+              <div class="login-tab">
+                <div class="sign-in-section">
+                  <div class="sign-in-dropdown">
+                    <div class="dropdown-container">
+                      <div class="dropdown-login-button">
+                        <div class="dropdown-login-content">
+                          <div class="dropdown-button-base">
+                            <span onclick="showCheckout()">Login/ Register</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-menu-container">
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content1"></div>
+                        My account
+                      </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content2"></div>
+                        Order History
+                      </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content3"></div>
+                        Saved List
+                      </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content4"></div>
+                        Alerts & Coupon
+                      </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content5"></div>
+                        Gift Card
+                      </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content6"></div>
+                        CLiQ Cash
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sign-in" onmouseover="showDropdown()">
+                    Sign in / Sign Up
+                  </div>
+                </div>
+                <a href="#">
+                  <div class="track-orders">Track Orders</div>
+                </a>
+                <a href="#">
+                  <div class="track-orders">CLiQ Care</div>
+                </a>
+                <a href="#">
+                  <div class="track-orders">Gift Card</div>
+                </a>
+                <a href="#">
+                  <div class="track-orders">CLiQ Cash</div>
+                </a>
+              </div>
+            </div>
+            <div class="nav-bar-lower-header">
+              <div class="left-tab-holder">
+                <div
+                  class="category"
+                  onmouseover="showCategory()"
+                  onmouseleave="closeCategory()"
+                >
+                  Categories
+                  <div class="category-arrow"></div>
+                  <div class="category-hover-div">
+                    <div class="category-hover-div-left">
+                      <div class="category-hover-div-left-options">
+                        Women's Fashion
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Men's Fashion
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        TV & Appliances
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Mobile Phones
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Electronics
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Kid's Fashion
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Beauty
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                      <div class="category-hover-div-left-options">
+                        Home Furnishings
+                        <div
+                          class="category-hover-div-left-options-arrow"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="category-hover-div-right">
+                      <a href="#" class="sub-heading">Ethnic Wear</a>
+                      <a href="#">Kurtas & Kurtis</a>
+                      <a href="#">Suit Sets</a>
+                      <a href="#">Sarees & Lehenga sets</a>
+                      <a href="#">Bottoms</a>
+                      <a href="#">Dupattas</a>
+                      <a href="#">Blouses & Dress material</a>
+                      <a href="#">Inner & Nightwear</a>
+                      <a href="#">Bras</a>
+                      <a href="#">Panties</a>
+                      <a href="#">Camisole</a>
+                      <a href="#">Sleepwear & Robes</a>
+                      <a href="#">Shapewear</a>
+                      <a href="#">Fragrances</a>
+                      <a href="#">Active & Sportswear</a>
+                      <a href="#">Western Wear</a>
+                      <a href="#">Top & Tees</a>
+                      <a href="#">Dresses</a>
+                      <a href="#">Shirts</a>
+                      <a href="#">Pant & Trousers</a>
+                      <a href="#">Jeans</a>
+                      <a href="#">Leggings</a>
+                      <a href="#">Jumpsuits</a>
+                      <a href="#">Skirts</a>
+                      <a href="#">Jacket & Blazers</a>
+                      <a href="#">Shrugs</a>
+                      <a href="#">Sweatshirts</a>
+                      <a href="#">Sweaters</a>
+                      <a href="#">Curvy Fashion</a>
+                      <a href="#">View All Clothing</a>
+                      <a href="#">Footwear</a>
+                      <a href="#">Casual</a>
+                      <a href="#">Ethnic</a>
+                      <a href="#">Formal</a>
+                      <a href="#">Sneakers</a>
+                      <a href="#">Boots</a>
+                      <a href="#">Sports Shoes</a>
+                      <a href="#">Flip-Flops</a>
+                      <a href="#">Watches</a>
+                      <a href="#">Dressy Watches</a>
+                      <a href="#">Casual Watches</a>
+                      <a href="#">Smart Watches</a>
+                      <a href="#">Formal Watches</a>
+                      <a href="#">Sporty watches</a>
+                      <a href="#">Handbags & Wallets</a>
+                      <a href="#">Handbags</a>
+                      <a href="#">Tote Bags</a>
+                      <a href="#">Sling Bags</a>
+                      <a href="#">Laptop Bags</a>
+                      <a href="#">Backpacks</a>
+                      <a href="#">Wallets</a>
+                      <a href="#">Clutches</a>
+                      <a href="#">Leather Handbags</a>
+                      <a href="#">Jewellery</a>
+                      <a href="#">Gold Jewellery</a>
+                      <a href="#">Diamond Jewellery</a>
+                      <a href="#">Silver Jewellery</a>
+                      <a href="#">Fashion Jewellery</a>
+                      <a href="#">Eyewear</a>
+                      <a href="#">Frames</a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="brand"
+                  onmouseover="showBrand()"
+                  onmouseleave="closeBrand()"
+                >
+                  Brands
+                  <div class="brand-arrow"></div>
+                  <div class="brand-hover-div">
+                    <div class="brand-hover-div-left">
+                      <div class="brand-hover-div-left-options">
+                        TV & Appliances
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Electronics
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Women's Wear
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Men's Wear
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Footwear
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Jewellery
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Watches & Accessories
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                      <div class="brand-hover-div-left-options">
+                        Kids
+                        <div class="brand-hover-div-left-options-arrow"></div>
+                      </div>
+                    </div>
+                    <div class="brand-hover-div-center">
+                      <div class="center-left">
+                        <a href="#">Popular Brands</a>
+                        <a href="#">LG</a>
+                        <a href="#">Samsung</a>
+                        <a href="#">Sony</a>
+                        <a href="#">Hitachi</a>
+                        <a href="#">Daikin</a>
+                        <a href="#">Carrier</a>
+                        <a href="#">Blue Star</a>
+                        <a href="#">Bosch</a>
+                        <a href="#">Xiaomi</a>
+                        <a href="#">Panasonic</a>
+                        <a href="#">Bajaj</a>
+                        <a href="#">Kent</a>
+                        <a href="#">Havells</a>
+                      </div>
+                      <div class="center-right">
+                        <a href="#">Featured brands</a>
+                        <a href="#">VU</a>
+                        <a href="#">Lloyd</a>
+                        <a href="#">TCL</a>
+                        <a href="#">Sanyo</a>
+                        <a href="#">Godrej</a>
+                        <a href="#">Prestige</a>
+                        <a href="#">Wonderchef</a>
+                        <a href="#">Tata Swach</a>
+                        <a href="#">Livpure</a>
+                        <a href="#">Luminous</a>
+                        <a href="#">KitchenAid</a>
+                        <a href="#">Syska</a>
+                        <a href="#">Symphony</a>
+                      </div>
+                    </div>
+                    <div class="brand-hover-div-right">
+                      <div class="brand-logo-details">
+                        <div class="brand-image-base">
+                          <img
+                            src="https://assets.tatacliq.com/medias/sys_master/images/13957513642014.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="brand-logo-details">
+                        <div class="brand-image-base">
+                          <img
+                            src="https://assets.tatacliq.com/medias/sys_master/images/27251275989022.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="brand-logo-details">
+                        <div class="brand-image-base">
+                          <img
+                            src="https://assets.tatacliq.com/medias/sys_master/images/26728706506782.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="brand-logo-details">
+                        <div class="brand-image-base">
+                          <img
+                            src="https://assets.tatacliq.com/medias/sys_master/images/13957513838622.jpg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right-tab-holder">
+                <div class="my-bag"></div>
+                <div class="my-wishlist"></div>
+              </div>
+              <div class="search-tab-holder">
+                <div class="search-tab-container">
+                  <div class="search-tab-content">
+                    <div class="search-tab-logo" onclick="closesearch()">
+                      <div class="icon-base">
+                        <div class="icon-image"></div>
+                      </div>
+                    </div>
+                    <div class="search-bar">
+                      <div class="search-bar-input">
+                        <input
+                          type="search"
+                          placeholder="Search"
+                          id="search-field"
+                          onclick="searchbar()"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <i class="fa fa-times" onclick="closeModal()"></i>
+            <div class="checkout-container">
+                <div class="heading-modal">
+                    <h2>Welcome to Tata CLiQ</h2>
+                    <p>Please enter your mobile number</p>
+                </div>
+                <div class="input-field-modal">
+                    <div class="mobile-field-modal">
+                        <div class="mobile-field-details">
+                            <div class="mobile-code">+91</div>
+                            <input type="text" placeholder="Enter Mobile Number" id="input-mobile">
+                        </div>
+                        <button class="submit-mobile-details">Continue</button>
+                    </div>
+                </div>
+            </div>
+    </div>  
+  </body>
+</html>
+<script src="index.js"></script>
