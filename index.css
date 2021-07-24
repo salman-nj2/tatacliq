@@ -796,7 +796,6 @@ hover div over category and brand */
 #carousel2 {
   margin-top: 100px;
   min-width: 100%;
-  display: inline-block;
 }
 #carousel img,
 #carousel1 img,
@@ -1243,4 +1242,20 @@ body::-webkit-scrollbar {
 .footer-bottom-content h3 {
   margin-bottom: 5px;
   font-weight: 550;
+}
+
+/* red circle over bag */
+
+#red-circle div {
+  height: 19px;
+  width: 19px;
+  background-color: rgb(255, 23, 68);
+
+  border-radius: 50%;
+  margin-left: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  visibility: hidden;
 }

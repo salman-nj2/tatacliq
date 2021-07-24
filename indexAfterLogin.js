@@ -296,3 +296,16 @@ function nextProduct3(){
 }
 
 // End of Carousel
+
+
+// red circle over bag
+
+let x = 1
+function redCircle(){
+
+var red = document.getElementById('getTheTotalCount')
+
+red.style.visibility = 'visible'
+red.innerHTML = `${x}`
+x++
+}

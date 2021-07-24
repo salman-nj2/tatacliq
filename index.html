@@ -84,23 +84,19 @@
             </div>
             <div class="nav-bar-lower-header">
               <div class="left-tab-holder">
-                <div
-                  class="category"
-                  onmouseover="showCategory()"
-                  onmouseleave="closeCategory()"
-                >
+                <div class="category" onmouseover="showCategory()" onmouseleave="closeCategory()">
                   Categories
                   <div class="category-arrow"></div>
                   <div class="category-hover-div">
                     <div class="category-hover-div-left">
                       <div class="category-hover-div-left-options">
-                        Women's Fashion
+                        Men's Fashion
                         <div
                           class="category-hover-div-left-options-arrow"
                         ></div>
                       </div>
                       <div class="category-hover-div-left-options">
-                        Men's Fashion
+                        Women's Fashion
                         <div
                           class="category-hover-div-left-options-arrow"
                         ></div>
@@ -159,7 +155,7 @@
                       <a href="#">Fragrances</a>
                       <a href="#">Active & Sportswear</a>
                       <a href="#">Western Wear</a>
-                      <a href="#">Top & Tees</a>
+                      <a href="#">T-shirts & polos</a>
                       <a href="#">Dresses</a>
                       <a href="#">Shirts</a>
                       <a href="#">Pant & Trousers</a>
@@ -320,8 +316,10 @@
                 </div>
               </div>
               <div class="right-tab-holder">
-                <div class="my-bag"></div>
-                <div class="my-wishlist"></div>
+                <div class="my-bag">
+                  <div id="red-circle"><div id="getTheTotalCount">0</div></div>
+                </div>
+                <div class="my-wishlist" onclick="redCircle()"></div>
               </div>
               <div class="search-tab-holder">
                 <div class="search-tab-container">
@@ -353,6 +351,7 @@
       <div id="carousel"></div>
       <div id="carousel1"></div>
       <div id="carousel2"></div>
+    
       </div>
       <div class="carousel-left-arrow" onclick="prev()"></div>
       <div class="carousel-right-arrow" onclick="frd()"></div>

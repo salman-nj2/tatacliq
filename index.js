@@ -308,3 +308,19 @@ function nextProduct3(){
 function submitMobile(){
     window.location.href ="./indexAfterLogin.html"
 }
+
+
+
+// red circle over bag
+
+let x = 1
+function redCircle(){
+
+var red = document.getElementById('getTheTotalCount')
+
+red.style.visibility = 'visible'
+red.innerHTML = `${x}`
+x++
+}
+
+
