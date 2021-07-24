@@ -80,6 +80,34 @@ header {
   padding-left: 30px;
   cursor: pointer;
 }
+.track-orders1 {
+  width: 25px;
+  height: 25px;
+  float: right;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #fff
+    url(https://www.tatacliq.com/src/general/components/img/profile.39b59dc38fd3.png)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 7px;
+  margin-left: 25px;
+}
+.track-orders0 {
+  width: 25px;
+  height: 25px;
+  float: right;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  background: url(https://www.tatacliq.com/src/general/components/img/down-arrow-white.7d24202a27ce.svg)
+    no-repeat;
+  background-size: auto 12px;
+  background-position: center;
+  margin: 7px 7px 7px 0;
+}
 .nav-bar-upper-header {
   height: 40px;
   background-color: #000;
@@ -264,7 +292,7 @@ header {
   width: 178px;
   height: auto;
   background: #fff;
-  right: 0;
+  right: 10px;
   top: 60px;
   visibility: hidden;
   opacity: 0;
@@ -402,6 +430,17 @@ header {
   width: 25px;
   height: 25px;
   background: url(https://www.tatacliq.com/src/account/components/img/cliqCash.89de362374b9.svg)
+    no-repeat;
+  background-size: auto 18px;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.dropdown-menu-options-content7 {
+  width: 25px;
+  height: 25px;
+  background: url(https://www.tatacliq.com/src/general/components/img/settingsblack.fc70787f7c81.svg)
     no-repeat;
   background-size: auto 18px;
   background-position: center;

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tatacliq</title>
+    <title>Tatacliq after login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="indexAfterLogin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,13 +29,6 @@
                 <div class="sign-in-section">
                   <div class="sign-in-dropdown">
                     <div class="dropdown-container">
-                      <div class="dropdown-login-button">
-                        <div class="dropdown-login-content">
-                          <div class="dropdown-button-base">
-                            <span onclick="showCheckout()">Login/ Register</span>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                     <div class="dropdown-menu-container">
                       <div class="dropdown-menu-options">
@@ -62,12 +55,22 @@
                         <div class="dropdown-menu-options-content6"></div>
                         CLiQ Cash
                       </div>
+                      <div class="dropdown-menu-options">
+                        <div class="dropdown-menu-options-content7"></div>
+                        Log Out
+                      </div>
                     </div>
                   </div>
-                  <div class="sign-in" onmouseover="showDropdown()">
-                    Sign in / Sign Up
+                  <a href="#">
+                    <div class="track-orders0"></div>
+                  </a>
+                  <div class="sign-in" onmouseover="showDropdown()" style="padding-left: 15px;">
+                    Hello
                   </div>
                 </div>
+                <a href="#">
+                  <div class="track-orders1"></div>
+                </a>
                 <a href="#">
                   <div class="track-orders">Track Orders</div>
                 </a>
@@ -829,7 +832,7 @@
                             <div class="mobile-code">+91</div>
                             <input type="text" placeholder="Enter Mobile Number" id="input-mobile">
                         </div>
-                        <button class="submit-mobile-details" id="submit" onclick="submitMobile()">Continue</button>
+                        <button class="submit-mobile-details">Continue</button>
                     </div>
                 </div>
             </div>
@@ -838,4 +841,4 @@
   
   </body>
 </html>
-<script src="index.js"></script>
+<script src="indexAfterLogin.js"></script>

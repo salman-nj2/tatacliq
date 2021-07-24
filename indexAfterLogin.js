@@ -296,11 +296,3 @@ function nextProduct3(){
 }
 
 // End of Carousel
-
-
-
-// submit mobile number
-
-function submitMobile(){
-    window.location.href ="./indexAfterLogin.html"
-}
