@@ -29,9 +29,10 @@ function searchbar(){
 function closesearch(){
     var inpField = document.querySelector('.search-tab-container')
     var inp = document.getElementById('search-field')
-
-    inpField.style.backgroundColor = 'black'
+    var search = document.querySelector('.search-tab-logo')
+    inpField.style.backgroundColor = '#212121'
     inpField.style.width = '245px'
+    search.style.opacity = '1'
     
 }
 
