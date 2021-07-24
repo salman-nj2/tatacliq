@@ -70,6 +70,9 @@ window.addEventListener("scroll",function(){
 })
 
 
+
+
+
 //modal_container
 const modal_container = document.querySelector('.modal-container')
 const close = document.querySelector('fa fa-times')
